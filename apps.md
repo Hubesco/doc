@@ -1,6 +1,10 @@
-#Official apps &nbsp;&nbsp;<img src="https://yunohost.org/images/roundcube.png"><img src="https://yunohost.org/images/ttrss.png"><img src="https://yunohost.org/images/wordpress.png"><img src="https://yunohost.org/images/transmission.png"><img src="https://yunohost.org/images/jappix.png">
+#Official apps &nbsp;<img src="https://yunohost.org/images/roundcube.png" width=60><img src="https://yunohost.org/images/ttrss.png" width=60><img src="https://yunohost.org/images/wordpress.png" width=60><img src="https://yunohost.org/images/transmission.png" width=60><img src="https://yunohost.org/images/jappix.png" width=60><img src="https://yunohost.org/images/logo-jirafeau.jpeg" width=60><img src="https://yunohost.org/images/Logo-wallabag-svg.svg" width=60><img src="https://yunohost.org/images/Searx_logo.svg" width=60>
 
-<a class="btn btn-lg btn-default" href="/apps">Official apps</a> <a class="btn btn-lg btn-default" href="/apps_in_progress">Apps in progress</a> <a class="btn btn-lg btn-default" href="/apps_wishlist_en">Apps wishlist</a>
+<a class="btn btn-lg btn-default disabled" href="/apps_en">Official apps</a> <a class="btn btn-lg btn-default" href="/apps_in_progress_en">Apps in progress</a> <a class="btn btn-lg btn-default" href="/apps_wishlist_en">Apps wishlist</a>
+
+<div class="clearfix" style="margin-bottom: 1em;">
+<div class="btn btn-default btn-xs pull-right" data-toggle="collapse" data-target="#app-accordion .collapse">View all</div>
+</div>
 
 <div class="panel-group" id="app-accordion"></div>
 
@@ -8,7 +12,7 @@
   <div class="panel panel-default">
     <div class="panel-heading">
       <div class="panel-title">
-        <a data-toggle="collapse" data-parent="#app-accordion" href="#app_{app_id}">{app_name} <em><small>({app_id})</small></em></a>
+        <a data-toggle="collapse" data-parent="#app-accordion" href="apps_en/#app_{app_id}">{app_name} <em><small>({app_id})</small></em></a>
       </div>
     </div>
     <div class="panel-collapse collapse app_{app_id}">
@@ -16,16 +20,18 @@
         <p><strong>Description</strong>: {app_description}</p>
         <p><strong>Last update (UTC)</strong>: {app_update}</p>
         <p><strong>Maintainer</strong>: {app_maintainer} <small class="text-muted">({app_mail})</small></p>
-        <p><strong>Git</strong>: <a href="{app_git}" target="_blank">{app_git}</a> <small class="text-muted">({app_branch})</small></p>
+        <p><strong>Git repository</strong>: <a href="{app_git}" target="_blank">{app_git}</a> <small class="text-muted">({app_branch})</small></p>
         <a href="#/app_{app_id}" target="_blank" class="btn btn-default">Documentation</a>
     </div>
   </div>
 </script>
+<br />
+<div class="alert alert-info">All official applications are under free licenses.</div>
 
 <script>
 function timeConverter(UNIX_timestamp) {
     var a = new Date(UNIX_timestamp*1000);
-    var months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+    var months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
     var year = a.getFullYear();
     var month = months[a.getMonth()];
     var date = a.getDate();

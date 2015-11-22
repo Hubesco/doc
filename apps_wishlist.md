@@ -1,16 +1,16 @@
 #Apps wishlist
 
-<a class="btn btn-lg btn-default" href="/apps">Official apps</a> <a class="btn btn-lg btn-default" href="/apps_in_progress_en">Apps in progress</a> <a class="btn btn-lg btn-default" href="/apps_wishlist">Apps wishlist</a>
+<a class="btn btn-lg btn-default" href="/apps_en">Official apps</a> <a class="btn btn-lg btn-default" href="/apps_in_progress_en">Apps in progress</a> <a class="btn btn-lg btn-default disabled" href="/apps_wishlist_en">Apps wishlist</a>
 
 The following list is a compiled wishlist of applications that would be nice-to-have.
 
 [Edit this list](/write_documentation) to add your own favorite app, or learn to [package apps](/packaging_apps) yourself.
 
+* [List of awesome selfhosted apps](https://github.com/Kickball/awesome-selfhosted)
 * [10er10](https://github.com/dready92/10er10)
 * [Ajenti](http://ajenti.org/)
 * [Autoblog](https://github.com/mitsukarenai/Projet-Autoblog)
 * [Bolt](http://bolt.cm)
-* [Bootstrap](http://getbootstrap.com/)
 * [Browsepass](http://techualization.blogspot.de/2013/09/introducing-browsepass-keepass-on-web.html)
 * [Caliopen](https://www.caliopen.org/)
 * [CardDavMate](https://www.inf-it.com/open-source/clients/carddavmate/)
@@ -19,6 +19,7 @@ The following list is a compiled wishlist of applications that would be nice-to-
 * [CumulusClips](http://cumulusclips.org/)
 * [DemocracyOS](http://democracyos.org/)
 * [Discourse](http://discourse.org/)
+* [Dolibarr](http://www.dolibarr.fr/)
 * [Ethersheet](https://ethersheet.org/)
 * [Fail2web](https://github.com/Sean-Der/fail2web)
 * [FileTea](https://filetea.me)
@@ -40,15 +41,17 @@ The following list is a compiled wishlist of applications that would be nice-to-
 * [InfCloud](https://www.inf-it.com/open-source/clients/infcloud/)
 * [Jitsi Meet](https://github.com/jitsi/jitsi-meet)
 * [Joomla!](https://www.joomla.org/)
-* [jsFiddle](http://jsbin.com/help/2-second-setup)
+* [JS Bin](http://jsbin.com/help/2-second-setup)
 * [Kaiwa](http://getkaiwa.com/)
 * [Known](https://withknown.com/)
 * [KrISS feed](https://github.com/tontof/kriss_feed)
 * [Kune](https://en.wikipedia.org/wiki/Kune_%28software%29)
 * [LSTU](https://github.com/ldidry/lstu)
+* [Lufi](https://git.framasoft.org/luc/lufi)
 * [MaidSafe](http://maidsafe.net/)
 * [Mailman](https://www.gnu.org/software/mailman/)
 * [Mailpile](https://www.mailpile.is)
+* [MatterMost](https://github.com/mattermost/platform)
 * [MediaCrush](https://imgrush.com/)
 * [Mini Jappix](https://github.com/jappix/jappix/wiki/JappixMini)
 * [MinigalNano](https://github.com/sebsauvage/MinigalNano)
@@ -66,7 +69,6 @@ The following list is a compiled wishlist of applications that would be nice-to-
 * [Pico](http://picocms.org/)
 * [Pix](http://pix.toile-libre.org/)
 * [PPTP VPN](https://packages.debian.org/sv/squeeze/pptpd)
-* [Protonmail](https://protonmail.ch/)
 * [Pulse](https://ind.ie/pulse/)
 * [Pump.io](http://pump.io)
 * [racktables](http://racktables.org/)
@@ -97,5 +99,6 @@ The following list is a compiled wishlist of applications that would be nice-to-
 * [WebTorrent](https://github.com/feross/webtorrent)
 * [Wisemapping](http://www.wisemapping.com/)
 * [YellowCMS](http://datenstrom.se/yellow/)
+* [ZeroNet](http://zeronet.io/)
 * [Zone-project](https://github.com/descl/ZONE)
 * [ZNC](http://wiki.znc.in/ZNC)

@@ -22,7 +22,7 @@ Talk about software freedom, [self-hosting](selfhosting_en) and YunoHost to your
 <span class="glyphicon glyphicon-exclamation-sign"></span>&nbsp;&nbsp; Testing
 </div>
 <div class="col col-md-8" markdown="1">
-We need people able to test YunoHost deeply. If you find a bug, try to identify it, and report it on the right <a href="https://github.com/YunoHost" target="_blank">GitHub issue tracker</a>.
+We need people able to test YunoHost deeply. If you find a bug, try to identify it, and report it on our <a href="https://dev.yunohost.org/projects/yunohost/issues/new" target="_blank">bug tracker</a>.
 </div>
 </div>
 
@@ -57,7 +57,7 @@ Sysadmins, web developers, designers and pythonists <a href="https://github.com/
 </div>
 <div class="col col-md-8" markdown="1">
 Get involved by making YunoHost interfaces available in your language.    
-Create a Transifex account and <a href="https://www.transifex.com/organization/yunohost/" target="_blank">get started</a>! 
+<a href="https://translate.yunohost.org/" target="_blank">Get started</a>! 
 </div>
 </div>
 
@@ -96,20 +96,6 @@ Seed (share) YunoHost images with Torrent system: [live](http://build.yunohost.o
 </div>
 
 ---
-
-<div class="row">
-<div class="col col-md-3 lead">
-<span class="glyphicon glyphicon-usd"></span>&nbsp;&nbsp; Donation
-</div>
-<div class="col col-md-8" markdown="1">
-You can now send us Bitcoins at the address `1PySSS56bxnRzTv4RzYx1aQr9sJeBQwddf`
-</br>
-<a href="bitcoin:1PySSS56bxnRzTv4RzYx1aQr9sJeBQwddf?label=Yunohost"><img src="https://yunohost.org/images/bitcoin.png" /></a>
-<br>
-<br>
-or use Flattr:  <a href="http://flattr.com/thing/3164470/YunoHost-web-site" target="_blank"><img src="https://yunohost.org/images/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" /></a>
-</div>
-</div>
 
 
 <br>

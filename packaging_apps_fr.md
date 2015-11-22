@@ -1,4 +1,4 @@
-# Packaging d’applications
+# Packaging d’applications <img src="https://yunohost.org/images/yunohost_package.png" width=100/>
 
 Ce document a pour but de vous apprendre à packager une application pour YunoHost.
 
@@ -29,7 +29,7 @@ Le fichier `manifest.json` définit les constantes de l'application, un ensemble
         "en": "Open Source Webmail software",
         "fr": "Webmail Open Source"
     },
-    "license": "GPL-3",
+    "license": "free",
     "maintainer": {
         "name": "kload",
         "email": "kload@kload.fr",
@@ -64,7 +64,7 @@ Le fichier `manifest.json` définit les constantes de l'application, un ensemble
 
 * **description** : la description complète de l'application. Vous pouvez la détailler comme bon vous semble. Uniquement le champs `en` (English) est requis, mais vous pouvez tout de même ajouter la traduction en français :)
 
-* **license** : la licence avec laquelle l'application est distribuée. Il ne s’agit pas de la license du paquet qui, elle, doit être mise dans le fichier `LICENSE`. Veuillez utiliser le nom abrégé de la licence, par exemple `GPL-3` pour la GNU General Public License version 3. Voici une [liste des abréviations standards](https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/#license-field).
+* **license** : type de licence avec laquelle le logiciel est distribué : `free`, `non-free`. Attention à ne pas confondre avec la licence du paquet qui doit être mise dans le fichier `LICENSE`.
 
 * **maintainer** : informations à propos du mainteneur du paquet de l'application.
 
@@ -162,10 +162,13 @@ La commande définit la valeur si vous ajoutez ```-v <valeur>```, sinon la récu
 
 ** Quelques paramètres pratiques **<br><br>
 ```skipped_uris```<br><br>
-Enlève la protection sur la liste d'uris fournies séparées par des virgules.<br><br>
+Indique à SSOwat de ne pas s'occuper de la liste d'uris fournies séparées par des virgules. Celles-ci ne seront donc pas protégées et ne pourront pas utiliser le mécanisme d'authentification centralisée.<br><br>
 
 ```protected_uris```<br><br>
 Protège la liste d'uris fournies séparées par des virgules. Seul un utilisateur connecté y aura accès.<br><br>
+
+```unprotected_uris```<br><br>
+Indique à SSOwat de ne pas s'occuper de la liste d'uris fournies séparées par des virgules que si l'utilisateur est connecté. Ces uris sont donc publiquement accessibles mais peuvent utiliser le mécanisme d'authentification centralisée.<br><br>
 
 Il existe aussi `skipped_regex`, `protected_regex`, `unprotected_uris`, `unprotected_regex`.<br><br>
 
@@ -239,9 +242,9 @@ Vous trouverez ci-dessous une liste des point à vérifier concernant la qualit�
 * Les scripts backup et restore sont présents et fonctionnels.
 
 ### Publiez et demandez des tests de votre application
-* Demandez des tests et des retours sur votre application en publiant un [post sur le Forum](https://forum.yunohost.org/) avec la catégorie `App integration`.
+* Demandez des tests et des retours sur votre application en publiant un [post sur le Forum](https://forum.yunohost.org/) dans la [catégorie `App integration`](https://forum.yunohost.org/c/app-integration).
 
-* [Ajoutez](/write_documentation_fr) votre application à [la liste des apps non officielles](https://yunohost.org/#/apps_in_progress_en) avec l’état du paquet : `Ready`, `In progress` ou `Not working`.
+* Faire une demande d’ajout de votre application dans le [dépôt des applications](https://github.com/YunoHost/apps) afin qu’elle soit affichée dans [la liste des apps non officielles](https://yunohost.org/#/apps_in_progress_en). Préciser également son état d’avancement : `notworking`, `inprogress`, ou `ready`
 
 ### Officialisation d’une application
-Pour qu’une application devienne officielle, elle doit être suffisamment testée, stable et fonctionner sous les architectures 64 bits, 32 bits et ARM sur Debian Wheezy et Jessie. Si ces conditions vous paraissent réunies, demandez l’[intégration officielle](http://app.yunohost.org) de votre application.
+Pour qu’une application devienne officielle, elle doit être suffisamment testée, stable et fonctionner sous les architectures 64 bits, 32 bits et ARM sur Debian Wheezy et Jessie. Si ces conditions vous paraissent réunies, demandez l’[intégration officielle](https://github.com/YunoHost/apps) de votre application.

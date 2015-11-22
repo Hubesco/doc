@@ -22,7 +22,7 @@ Parlez de logiciel libre, d'[auto-hébergement](/selfhosting_fr), de YunoHost à
 <span class="glyphicon glyphicon-exclamation-sign"></span>&nbsp;&nbsp; Testez
 </div>
 <div class="col col-md-8" markdown="1">
-Nous avons besoin de tester YunoHost profondément. Si vous trouvez un bug, essayez de l'identifier, puis reportez-le sur le bon <a href="https://github.com/YunoHost" target="_blank">bug tracker GitHub</a>.
+Nous avons besoin de tester YunoHost profondément. Si vous trouvez un bug, essayez de l'identifier, puis reportez-le sur notre <a href="https://dev.yunohost.org/projects/yunohost/issues/new" target="_blank">bug tracker</a>.
 </div>
 </div>
 
@@ -55,7 +55,7 @@ Vous pouvez vous impliquer dans le développement de YunoHost peu importe votre 
 <span class="glyphicon glyphicon-globe"></span>&nbsp;&nbsp; Traduisez
 </div>
 <div class="col col-md-8" markdown="1">
-Participez en rendant les interfaces de YunoHost disponibles dans votre langue. Créez un compte Transifex et <a href="https://www.transifex.com/organization/yunohost/" target="_blank">lancez-vous</a> !
+Participez en rendant les interfaces de YunoHost disponibles dans votre langue. <a href="https://translate.yunohost.org/" target="_blank">Lancez-vous</a> !
 </div>
 </div>
 
@@ -93,20 +93,5 @@ Seedez (partagez) avec le système de Torrent les images de YunoHost : [live](ht
 </div>
 
 ---
-
-<div class="row">
-<div class="col col-md-3 lead">
-<span class="glyphicon glyphicon-euro"></span>&nbsp;&nbsp; Donnez
-</div>
-<div class="col col-md-8" markdown="1">
-Vous pouvez maintenant nous envoyer des Bitcoins à l'adresse `1PySSS56bxnRzTv4RzYx1aQr9sJeBQwddf`
-</br>
-<a href="bitcoin:1PySSS56bxnRzTv4RzYx1aQr9sJeBQwddf?label=Yunohost"><img src="https://yunohost.org/images/bitcoin.png" /></a>
-<br>
-<br>
-ou utiliser Flattr : <a href="http://flattr.com/thing/3164470/YunoHost-web-site" target="_blank"><img src="https://yunohost.org/images/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" /></a>
-</div>
-</div>
-
 <br>
 <p class="lead" markdown="1">Dans tous les cas, venez sur notre [salon de discussion](/support_fr) pour exprimer votre enthousiasme :-)</p>
